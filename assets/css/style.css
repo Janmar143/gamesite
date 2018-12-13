@@ -1,0 +1,205 @@
+@import 
+url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+
+body{
+		background-image: url("../images/moba2.jpg");
+		background-size: 100%;
+	
+	}
+
+nav {
+  max-height: 100px;
+  max-width: 1262px;
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, 
+  rgba(255, 255, 255, 0) 100%);
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+nav ul {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 18px;
+  font-family: "Bungee";
+  text-transform:uppercase;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 35, 122, 0.7);
+}
+
+
+.par1{
+   background-image: url("../images/moba4.png");
+
+  /* Set a specific height */
+  min-height: 600px; 
+  
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.par2{
+ background-image: url("../images/moba1.png");
+
+  /* Set a specific height */
+  min-height: 700px; 
+
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p.parag{
+  font-family: Oswald;
+}
+
+p.title{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+  font-family: 'Russo One', sans-serif;
+  color: white;
+}
+
+.transbox {
+  margin: 5px;
+  background-color: #ffffff;
+  border: ridge 8px #5D6D7E;
+  opacity: 0.9;
+  padding: 15px;
+  filter: alpha(opacity=60); 
+  border-radius: 25px;
+  
+}
+img.logo{
+    float:left; 
+    width:145px; 
+    height:145px;
+    border-radius: 50%;
+  }
+img.pics{
+  width: 100px;
+  height: 150px;
+  position: relative;
+  bottom: 40px;
+  border:groove #5D6D7E;
+
+}
+ /* video{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%) translateZ(-1px) scale(2);
+    -moz-transform: translateX(-50%) translateY(-50%) translateZ(-1px) scale(2);
+    transform: translateX(-50%) translateY(-50%) translateZ(-1px) scale(2);
+    z-index: -99
+}
+}*/
+
+p.fot{
+  text-align: center;
+  font-family: system-ui;
+  font-size: 18px;
+  position: relative; 
+  top: 0px;
+  color: white;
+}
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+video.bord{
+  margin: 0 auto;
+ border: 20px groove #5D6D7E  ;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  float: left;
+/*  width: 25%*/;
+    padding: 20px;
+    padding-top: 120px;
+}
+.column1 {
+  position: relative;
+  left:30px;
+  top: 0px;
+}
+
+.column2 {
+  position: relative;
+  left: 1020px;
+}
+
+.column img {
+  margin-top: 8px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+img.logo{
+   position: relative;
+   right:40px;
+   top: 5px;
+    width:55px; 
+    height:50px;
+  }
+  img.logo1{
+   position: relative;
+   left:325px;
+   top: 5px;
+    width:55px; 
+    height:50px;
+  }
