@@ -3,18 +3,16 @@ url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 
 
-
 body{
-		background-image: url("../images/moba2.jpg");
-		background-size: 100%;
-	
-	}
+    background-image: url("../images/plain.jpg");
+    background-size: 100%;
+  
+  }
 
 nav {
   max-height: 100px;
   max-width: 1262px;
-  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, 
-  rgba(255, 255, 255, 0) 100%);
+  mask-image: linear-gradient(rgba(0, 0, 0, 1.0), transparent);
   position: fixed;
   top: 0;
   width: 100%;
@@ -23,8 +21,8 @@ nav {
 
 nav ul {
   text-align: center;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+ /* background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);*/
 }
 
 nav ul li {
@@ -74,8 +72,22 @@ nav ul li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.par3{
+  background-image: url("../images/moba2.jpg");
+   
+   min-height: 700px; 
+
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 p.parag{
-  font-family: Oswald;
+  font-family: Oswald; 
+  font-size: 18px;
 }
 
 p.title{
@@ -96,15 +108,15 @@ p.title{
   border-radius: 25px;
   
 }
-img.logo{
+/*img.logo{
     float:left; 
     width:145px; 
     height:145px;
     border-radius: 50%;
-  }
+  }*/
 img.pics{
-  width: 100px;
-  height: 150px;
+  width: 200px;
+  height: 300px;
   position: relative;
   bottom: 40px;
   border:groove #5D6D7E;
@@ -146,7 +158,9 @@ video.bord{
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding-top: 150px;
+  padding-left: 20px;
+
 }
 
 /* Create four equal columns that sits next to each other */
@@ -157,14 +171,14 @@ video.bord{
     padding-top: 120px;
 }
 .column1 {
-  position: relative;
+ float: right;
   left:30px;
   top: 0px;
 }
 
 .column2 {
   position: relative;
-  left: 1020px;
+  left: 820px;
 }
 
 .column img {
@@ -198,8 +212,30 @@ img.logo{
   }
   img.logo1{
    position: relative;
-   left:325px;
+   left:40px;
    top: 5px;
     width:55px; 
     height:50px;
   }
+
+.flex-grid {
+  display: flex;
+   justify-content: space-between;
+}
+.col {
+  flex: 1;
+  width: 32%;
+}
+
+.col {
+
+  padding: 40px;
+}
+
+iframe.siz{
+  width:300px;
+  height:200px;
+
+}
+
+
